@@ -1,0 +1,139 @@
+body {
+	font-size: 16px;
+	margin: 0;
+	position: relative;
+	line-height: 1.65;
+	font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	color: #888da8;
+	background-color: #edf2f6;
+	padding-top: 110px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #515365;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+h6, .h6 {
+	font-size: .875em;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+a{
+	color: #ff5e3a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff5e3a;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1300px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.wrapper-content {
+	
+}
+
+.header {
+	height: 70px;
+	background-color: #3f4257;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 21;
+}
+
+.fixed-sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 22;
+	width: 270px;
+	min-height: 100%;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 34px 0 rgba(63,66,87,.1);
+	box-shadow: 0 0 34px 0 rgba(63,66,87,.1);
+}
+
+.ui-block {
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #e6ecf5;
+	margin-bottom: 15px;
+}
+
+.top-header {
+	position: relative;
+}
+
+.top-header-thumb {
+	position: relative;
+}
+
+.top-header-thumb img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+}
+
+.grid {
+	display: grid;
+}
+
+.grid-row {
+	gap: 30px;
+}
+
+.grid.col-3-9 {
+	grid-template-columns: 3fr 9fr;
+}
+
+.grid.col-5-7 {
+	grid-template-columns: 5fr 7fr;
+}
+
+/*Dialog*/
+
+.notification-list {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.notification-list li > a  {
+	display: block;
+	padding: 25px;
+	border-bottom: 1px solid #e6ecf5;
+	position: relative;
+	transition: all .3s ease;
+}
+
+.chat-message-field li {
+	padding: 25px;
+}
+
+.notification-list li > a:hover .h6, .notification-list li > a.active .h6 {
+	color: #ff5e3a;
+}
+
+.chat-message .notification-friend {
+	display: block;
+}
+
+.chat-field {
+	border-left: 1px solid #e6ecf5;
+}
+
